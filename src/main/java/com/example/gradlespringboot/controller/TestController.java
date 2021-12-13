@@ -20,6 +20,7 @@ public class TestController {
         map.put("code","0");
         map.put("localtime",localtime);
         map.put("msg","ok");
+        System.out.println("测试");
         return JSONObject.toJSONString(map);
     }
 }
